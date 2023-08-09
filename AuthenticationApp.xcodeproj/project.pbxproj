@@ -11,6 +11,11 @@
 		3B46CA8B2A81C8C00064AE55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CA8A2A81C8C00064AE55 /* ContentView.swift */; };
 		3B46CA8D2A81C8C20064AE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B46CA8C2A81C8C20064AE55 /* Assets.xcassets */; };
 		3B46CA902A81C8C20064AE55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B46CA8F2A81C8C20064AE55 /* Preview Assets.xcassets */; };
+		3B46CA982A81CC1D0064AE55 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CA972A81CC1D0064AE55 /* Title.swift */; };
+		3B46CA9A2A81CC850064AE55 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CA992A81CC850064AE55 /* PrimaryButton.swift */; };
+		3B46CA9D2A81CE5D0064AE55 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CA9C2A81CE5D0064AE55 /* LoginView.swift */; };
+		3B46CA9F2A81E25C0064AE55 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CA9E2A81E25C0064AE55 /* AuthenticationManager.swift */; };
+		3B46CAA12A833A4E0064AE55 /* CredentialsLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46CAA02A833A4E0064AE55 /* CredentialsLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		3B46CA8A2A81C8C00064AE55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B46CA8C2A81C8C20064AE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B46CA8F2A81C8C20064AE55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B46CA972A81CC1D0064AE55 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		3B46CA992A81CC850064AE55 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		3B46CA9C2A81CE5D0064AE55 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3B46CA9E2A81E25C0064AE55 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		3B46CAA02A833A4E0064AE55 /* CredentialsLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		3B46CA872A81C8C00064AE55 /* AuthenticationApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B46CA9E2A81E25C0064AE55 /* AuthenticationManager.swift */,
+				3B46CA9B2A81CE280064AE55 /* Views */,
 				3B46CA882A81C8C00064AE55 /* AuthenticationAppApp.swift */,
-				3B46CA8A2A81C8C00064AE55 /* ContentView.swift */,
+				3B46CA962A81CBF20064AE55 /* Components */,
 				3B46CA8C2A81C8C20064AE55 /* Assets.xcassets */,
 				3B46CA8E2A81C8C20064AE55 /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				3B46CA8F2A81C8C20064AE55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B46CA962A81CBF20064AE55 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3B46CA972A81CC1D0064AE55 /* Title.swift */,
+				3B46CA992A81CC850064AE55 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3B46CA9B2A81CE280064AE55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B46CA8A2A81C8C00064AE55 /* ContentView.swift */,
+				3B46CA9C2A81CE5D0064AE55 /* LoginView.swift */,
+				3B46CAA02A833A4E0064AE55 /* CredentialsLoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B46CA8B2A81C8C00064AE55 /* ContentView.swift in Sources */,
+				3B46CA9F2A81E25C0064AE55 /* AuthenticationManager.swift in Sources */,
+				3B46CAA12A833A4E0064AE55 /* CredentialsLoginView.swift in Sources */,
+				3B46CA982A81CC1D0064AE55 /* Title.swift in Sources */,
+				3B46CA9A2A81CC850064AE55 /* PrimaryButton.swift in Sources */,
+				3B46CA9D2A81CE5D0064AE55 /* LoginView.swift in Sources */,
 				3B46CA892A81C8C00064AE55 /* AuthenticationAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +306,7 @@
 				DEVELOPMENT_TEAM = H6KKJB73GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +336,7 @@
 				DEVELOPMENT_TEAM = H6KKJB73GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Allow FaceID to log into the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
